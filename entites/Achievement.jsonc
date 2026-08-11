@@ -1,0 +1,23 @@
+{
+  "name": "Achievement",
+  "type": "object",
+  "properties": {
+    "achievement_key": {
+      "type": "string",
+      "description": "Unique key for the achievement"
+    },
+    "earned": {
+      "type": "boolean",
+      "description": "Whether the achievement has been earned",
+      "default": false
+    },
+    "earned_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When the achievement was earned"
+    }
+  },
+  "required": [
+    "achievement_key"
+  ]
+}
