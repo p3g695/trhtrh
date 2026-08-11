@@ -1,0 +1,29 @@
+{
+  "name": "GameScore",
+  "type": "object",
+  "properties": {
+    "player_name": {
+      "type": "string",
+      "description": "Display name of the player for the leaderboard"
+    },
+    "best_obstacle_time": {
+      "type": "number",
+      "description": "Best obstacle course completion time in seconds"
+    },
+    "total_crumbs": {
+      "type": "number",
+      "description": "Total crumbs collected across all runs",
+      "default": 0
+    },
+    "games_played": {
+      "type": "number",
+      "description": "Total games played",
+      "default": 0
+    },
+    "bosses_defeated": {
+      "type": "number",
+      "description": "Total bosses defeated",
+      "default": 0
+    }
+  }
+}
